@@ -1,6 +1,6 @@
 [project]
 name = "mac-beat-sync"
-version = "0.1.0"
+version = "1.0.2"
 description = "Sync your Mac keyboard backlight with live audio beats."
 authors = [{ name = "Irsh Vijay", email = "irshvijay04@gmail.com" }]
 license = { text = "MIT" }
@@ -11,7 +11,8 @@ dependencies = [
     "sounddevice",
     "numpy",
     "librosa",
-    "pyyaml"
+    "pyyaml",
+    "tqdm"
 ]
 
 [project.scripts]
