@@ -1,0 +1,11 @@
+audio:
+  SAMPLE_RATE: 44100
+  BLOCK_SIZE: 1024
+  SMOOTHING: 0.05
+  WINDOW_SECONDS: 0.3
+  UPDATE_INTERVAL: 0.2
+  GAMMA: 1.1
+  WEIGHT_RMS: 0.2
+  WEIGHT_BEAT: 0.8
+driver:
+  CLI_TOOL: "/opt/homebrew/bin/mac-brightnessctl"

@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --- macOS specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.temp
+*.pid
+
+# --- Coverage / Testing ---
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+.cache/
+
+# --- User / Local Configs ---
+config_local.yaml
+.env
+*.local.json
+
+# --- Optional: Sound or Data Files ---
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.m4a
+*.npy
+*.npz
+
+# --- Optional: Output or debug files ---
+*.out
+*.txt
+*.dat
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+
+# --- System files ---
+Thumbs.db
